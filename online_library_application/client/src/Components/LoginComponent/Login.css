@@ -1,0 +1,61 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:url('/public/loginimage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .SubmittionForm {
+    width: 40%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .welcome {
+    height: 30%;
+    width: 100%;
+    color: blue;
+  }
+  
+  .inputFields {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username,
+  .password {
+    margin-bottom: 10px;
+  }
+  
+  .submitButton {
+    margin-bottom: 10px;
+    border-radius: 5px; /* Adjust the radius as needed */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    padding: 8px; 
+    background-color: greenyellow;
+  }
+  
+  .signupLink {
+    margin-top: 10px; /* Add margin to separate it from the submit button */
+  }
+
+  .username,
+.password {
+    margin-bottom: 10px;
+    border-radius: 5px; /* Adjust the radius as needed */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    padding: 8px; /* Add padding for better spacing */
+}
+  
